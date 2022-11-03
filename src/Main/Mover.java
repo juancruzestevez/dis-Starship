@@ -8,4 +8,12 @@ public class Mover {
         this.xs = xs;
         this.ys = ys;
     }
+
+    public double getXs() {
+        return xs;
+    }
+
+    public double getYs() {
+        return ys;
+    }
 }

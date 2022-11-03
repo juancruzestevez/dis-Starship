@@ -15,7 +15,7 @@ public class NormalWheapon implements Wheapon {
 
     public Bullets shoot(){
         return new Bullet(ship.point,
-                new Mover(ship.mover.rotation.getX() * speed, ship.mover.rotation.getY() * speed),
+                new Mover(ship.getMover().getRotation().getX() * speed, ship.mover.rotation.getY() * speed),
                 10.0);
     }
 }

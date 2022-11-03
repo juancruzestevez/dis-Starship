@@ -1,7 +1,7 @@
 package Main;
 
 final class Rotation {
-    final double degree;
+    public final double degree;
 
     public Rotation(double degree) {
         this.degree = degree;
@@ -13,5 +13,9 @@ final class Rotation {
 
     public double getY(){
         return Math.sin(Math.toRadians(degree));
+    }
+
+    public double getDegree() {
+        return degree;
     }
 }
