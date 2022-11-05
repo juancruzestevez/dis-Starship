@@ -1,7 +1,9 @@
 package Main;
 
-import Bullets.Bullets;
-import Wheapon.Wheapon;
+import Bullets.Bullet;
+import Wheapon.Weapon;
+
+import java.util.List;
 
 final class GameController {
 
@@ -27,7 +29,7 @@ final class GameController {
                 ship.mover.rotation));
     }
 
-    public Bullets shoot(Wheapon wheapon){
+    public List<Bullet> shoot(Weapon wheapon){
         return wheapon.shoot();
     }
 }
