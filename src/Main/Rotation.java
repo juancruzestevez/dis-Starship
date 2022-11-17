@@ -1,6 +1,6 @@
 package Main;
 
-final class Rotation {
+public class Rotation {
     public final double degree;
 
     public Rotation(double degree) {
